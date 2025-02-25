@@ -41,11 +41,11 @@
           <el-icon><location /></el-icon>
           <span>账务管理</span>
         </template>
-          <el-menu-item index="/manager/about">
+          <el-menu-item index="test">
             <el-icon><Compass /></el-icon>
             查询统计
           </el-menu-item>
-          <el-menu-item index="test">
+          <el-menu-item index="/manager/about">
             <el-icon><Edit /></el-icon>
             记账
           </el-menu-item>
