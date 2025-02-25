@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .12);
+}
+.parent- container {
+              display: flex;
+          }
+.nav- container {
+           width: 200px;
+           min-height: 100vh;
+           position: fixed;
+           left: 0;
+           top: 0;
+           z-index: 1;
+       }
+.form- container {
+            flex: 1; /* 让任务表单占据剩余空间 */
+            margin-left: 200px;
+            padding: 20px;
+            background-color: #e0e8f2;
+        }
+.form-container {
+    margin-left: 200px; /* 与导航栏宽度一致，为导航栏留出空间 */
+    padding: 20px;
+    background-color: #e0e8f2;
+    box - sizing: border - box; /* 确保内边距不会增加容器宽度 */
+    position: relative; /* 如果需要在表单内进行相对定位元素，添加此属性 */
+}
